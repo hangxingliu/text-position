@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": false,
+    "target": "ES2019",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "outDir": "out"
+  },
+  "include": ["src"],
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@hangxingliu/text-position",
+  "version": "1.0.0",
+  "main": "./out/index.js",
+  "types": "./out/index.d.ts",
+  "author": "hangxingliu",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --enable-source-maps out/tests",
+    "clean": "rimraf out"
+  },
+  "devDependencies": {
+    "@types/node": "^14",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^8.5.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.5.4"
+  }
+}
