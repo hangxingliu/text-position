@@ -1,10 +1,15 @@
 {
   "name": "@hangxingliu/text-position",
+  "description": "Text position utils for JavaScript",
   "version": "1.0.0",
   "main": "./out/index.js",
   "types": "./out/index.d.ts",
   "author": "hangxingliu",
   "license": "Apache-2.0",
+  "keywords": [
+    "text",
+    "position"
+  ],
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "tsc -p tsconfig.json && node --enable-source-maps out/tests",
@@ -17,5 +22,13 @@
     "eslint": "^8.5.0",
     "rimraf": "^3.0.2",
     "typescript": "^4.5.4"
-  }
+  },
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hangxingliu/text-position"
+	},
+	"bugs": {
+		"url": "https://github.com/hangxingliu/text-position/issues"
+	},
+	"homepage": "https://github.com/hangxingliu/text-position"
 }
